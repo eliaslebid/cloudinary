@@ -8,6 +8,12 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dano0jetn
+    api_key: 572346522351783
+
 media_folder: static/img
 public_folder: /img
 
